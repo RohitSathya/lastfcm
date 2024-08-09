@@ -40,7 +40,7 @@ app.post('/sendNotification', (req, res) => {
     });
 });
 
-const port = process.env.PORT || 8088;
+const port = process.env.PORT || 5001;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
